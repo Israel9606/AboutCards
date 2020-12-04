@@ -1,0 +1,158 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(244, 251, 252);
+}
+
+
+header{
+    
+  
+    text-align: center;
+    
+    
+}
+
+p{
+    margin: 0 auto;
+    width: 40%;
+    padding-bottom: 50px;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+}
+.card{
+   
+    margin-right: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 100px;
+    
+   
+    width: 30%;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: rgb(105, 241, 241);
+    
+
+    
+   
+   
+}
+
+.pcard{
+    font-size: 0.8rem;
+    width: 100%;
+    padding-left: 15px;
+}
+
+img{
+   
+}
+
+.card h1, .card2 h1, .card3 h1, .card4 h1{
+
+    font-size: 0.8rem;
+    padding: 10px;
+    padding-left: 15px;
+
+}
+
+.card,.card2,.card3,.card4{
+    border-radius: 6px;
+    padding: 20px;
+    height: 40%;
+  
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.116);
+}
+.card2,.card3{
+    width: 80%;
+   
+    
+    margin-bottom: 10px;
+}
+.card2{
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: rgb(240, 77, 77);
+   
+}
+.card3{
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: rgb(231, 204, 53);
+
+}
+
+.card4{
+   
+    margin-right: 10px;
+    margin-left: 50px;
+    position: relative;
+    top: 100px;
+    
+    width: 30%;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: rgb(53, 136, 231);
+
+}
+.column{
+    height: 500px;
+    width: 40%;
+    margin-left: 80px;
+}
+
+@media(max-width:400px){
+
+    .container{
+        display: block;
+        margin: 0;
+    }
+
+    .card{
+        position: relative;
+        top: 0;
+    }
+
+    .card4{
+        position: relative;
+        top: 0;
+    }
+    .column{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .card,.card2,.card3,.card4{
+        margin: 0;
+        width: 100%;
+      
+    }
+    img{
+        height: 30%;
+        position: relative;
+        bottom: 20px;
+    }
+    .imgsup{
+        position: relative;
+        bottom: 45px;
+    }
+    .imgcalc{
+        position: relative;
+        bottom: 65px;
+
+    }
+
+    p{
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    h1{
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+
+}
